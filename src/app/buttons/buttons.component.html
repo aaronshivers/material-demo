@@ -1,0 +1,35 @@
+<div>
+  <button mat-button>button</button>
+  <button mat-raised-button>raised button</button>
+  <button mat-flat-button>flat button</button>
+  <button mat-stroked-button>stroked button</button>
+</div>
+
+<div>
+  <button mat-icon-button>Icon</button>
+  <button mat-fab>Icon</button>
+  <button mat-mini-fab>Icon</button>
+</div>
+
+<div>
+  <button color="primary" mat-button>Primary</button>
+  <button color="accent" mat-button>Accent</button>
+  <button color="warn" disableRipple mat-button>Warn</button>
+  <button color="primary" mat-raised-button>Primary</button>
+  <button color="accent" mat-raised-button>Accent</button>
+  <button color="warn" mat-raised-button>Warn</button>
+</div>
+
+<div>
+  <mat-button-toggle #toggleBtn checked disableRipple disabled>Toggle</mat-button-toggle>
+  {{ toggleBtn.checked }}
+</div>
+
+<div>
+  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>
+    <mat-button-toggle value="angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="react">React</mat-button-toggle>
+    <mat-button-toggle value="vue">Vue</mat-button-toggle>
+  </mat-button-toggle-group>
+  {{ toggleGroup.value }}
+</div>
