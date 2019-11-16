@@ -1,0 +1,8 @@
+@import "~material-components-web/dist/material-components-web";
+@import "~material-components-web/material-components-web";
+@import "~material-components-web/";
+
+.foo-button {
+  @include mdc-button-ink-color(teal);
+  @include mdc-states(teal);
+}
