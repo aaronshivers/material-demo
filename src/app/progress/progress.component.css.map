@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,aAAa,EAAE,IAAI",
+"sources": ["progress.component.scss"],
+"names": [],
+"file": "progress.component.css"
+}
