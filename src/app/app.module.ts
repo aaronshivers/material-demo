@@ -11,6 +11,8 @@ import { IconsComponent } from './icons/icons.component';
 import { BadgeComponent } from './badge/badge.component';
 import { ProgressComponent } from './progress/progress.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     BadgeComponent,
     ProgressComponent,
     ToolbarComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ],
